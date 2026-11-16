@@ -1,35 +1,47 @@
 # Ahmed Gaber — Data Analyst Portfolio
 
-A minimal, responsive portfolio website built with HTML, CSS, and JavaScript. It is designed to be hosted free with GitHub Pages.
+A minimal, responsive portfolio website built with HTML, CSS, and JavaScript and hosted with GitHub Pages.
 
-## Before publishing
-1. Replace `YOUR_EMAIL@example.com` in `index.html` with your professional email.
-2. Replace `YOUR-LINKEDIN` and `YOUR-GITHUB` with your profile URLs.
-3. Review the About and Skills text so it accurately reflects your current experience.
-4. Add real project screenshots and links only after each project is complete.
-5. Do not present planned projects as completed work. The current cards are clearly marked as planned or coming soon.
+**Live website:** https://ahmdgabr.github.io/ahmed-gaber-portfolio/
 
-## Publish with GitHub Pages
-1. Create a public repository named `ahmed-gaber-portfolio` on GitHub.
-2. Upload all files in this folder to the repository root (not the ZIP file itself).
-3. Open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Choose branch **main** and folder **/(root)**, then Save.
-6. Wait for the deployment link shown in the Pages settings.
+## Portfolio approach
 
-Your site URL will usually be:
-`https://YOUR-GITHUB-USERNAME.github.io/ahmed-gaber-portfolio/`
+The website presents completed analytical work as evidence-based case studies. Projects are added progressively; a project is not described as complete until its dataset, workflow, and findings have been reviewed.
 
-## Project evidence checklist
-For each project, add:
-- Business problem and analytical questions
-- Dataset source, row count, column descriptions, and license
-- Data cleaning and preparation steps
-- Tools and methods actually used
-- Screenshots or a public interactive report
-- Key findings supported by the data
-- Practical recommendations
-- Source files or query/notebook links
+## Planned case-study structure
 
-## Important
-Never publish private, personal, confidential, or licensed data without permission. For Power BI public embeds, remember that published data can be accessible to anyone.
+Each published project should make the analytical process transparent:
+
+1. **Business context** — the problem, objectives, and analytical questions.
+2. **Source data** — original dataset, source attribution, license, row/column overview, and download link when redistribution is permitted.
+3. **Data preparation** — quality issues, cleaning decisions, transformations, and before/after examples.
+4. **Analysis** — methods, calculations, data model, queries, and measures actually used.
+5. **Interactive dashboard** — a browser-based preview that lets visitors explore the results where practical.
+6. **Findings and recommendations** — conclusions supported by the data and their business implications.
+
+## Public preview and private working files
+
+- Keep original working files such as Excel workbooks, Power BI PBIX files, and in-progress analysis private unless there is a deliberate reason to publish them.
+- Publish only data that is public, appropriately licensed, and safe to share.
+- An interactive browser dashboard hosted on GitHub Pages is public. Its client-side code and any data it uses can be inspected or downloaded.
+- Power BI **Publish to web** is public publication, not private sharing. Never use it for confidential, personal, or restricted data.
+- A public preview can demonstrate interactivity, but it cannot make its underlying browser-delivered data or code secret.
+
+## Skills presentation
+
+Skill descriptions are intentionally calibrated to demonstrated experience. Update them when new work has been completed and can be evidenced.
+
+## Local development
+
+The site is a static HTML/CSS/JavaScript project. Open `index.html` in a browser for a local preview, or publish changes to the `main` branch to update GitHub Pages.
+
+## Publishing with GitHub Pages
+
+1. Open the repository **Settings → Pages**.
+2. Under **Build and deployment**, select **Deploy from a branch**.
+3. Select branch **main** and folder **/(root)**.
+4. Save and wait for the deployment to finish.
+
+## Data and security
+
+Do not publish private, personal, confidential, or unlicensed data. Review every dataset's source and license before redistribution. GitHub Pages serves a public static website; making a repository private does not automatically make an already-published website or its delivered assets private.
