@@ -163,3 +163,35 @@ a:focus-visible,button:focus-visible{outline:3px solid #91ad96;outline-offset:3p
   .hero-card{animation:none}
   .scroll-reveal{transform:translateY(16px)}
 }
+
+
+/* Softer low-glare palette: warm stone instead of bright white */
+:root{
+  --page:#eae9e2;
+  --surface:#f1f0e9;
+  --surface-soft:#e3e6dc;
+  --line:#d6d9cf;
+  --ink:#303b34;
+  --muted:#727a70;
+  --sage:#718775;
+  --sage-deep:#34483b;
+}
+html,body{background:var(--page);color:var(--ink)}
+.site-header .nav{background:rgba(241,240,233,.96);border-color:#d8dbd1}
+.nav-cta{background:#e7e9e0;border-color:#d4d9ce}
+.hero-card{background:linear-gradient(145deg,#e4e8de 0%,#dce3d8 100%);border-color:#d2dbcf}
+.trust-strip,.skills-section{background:#e1e3da;border-color:#d5d9ce}
+.trust-inner>div{background:rgba(241,240,233,.82);border-color:#d6dbd1}
+.project-card,.about-section{background:#f0efe8;border-color:#d9dcd2}
+.project-visual{filter:saturate(.88)}
+.visual-excel{background:#dfe5db}
+.mock-kpis,.bi-window,.python-lines,.looker-report{background:#eeede6;border-color:#d6dbd1}
+.visual-powerbi,.visual-python,.visual-sql,.visual-looker{background:#e2e3dc}
+.visual-tableau{background:#e7e1d7}
+.skill-list,.skill-row{border-color:#d1d6cb}
+.skill-row:hover{background:rgba(241,240,233,.58)}
+.tags span{background:#e5e9df;border-color:#d9ded4}
+.nav-links{color:#626d63}
+@media(max-width:760px){
+  .nav-links{background:#f0efe8;border-color:#d8dbd1}
+}
