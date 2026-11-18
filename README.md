@@ -8,6 +8,10 @@ A minimal, responsive portfolio website built with HTML, CSS, and JavaScript and
 
 The website presents completed analytical work as evidence-based case studies. Projects are added progressively; a project is not described as complete until its dataset, workflow, and findings have been reviewed.
 
+## Published case studies
+
+- [Sales & Customer Performance Analysis](projects/sales-customer-performance/) — Excel case study with an interactive browser preview, two dashboard screenshots, findings, methodology, and anonymized CSV datasets.
+
 ## Planned case-study structure
 
 Each published project should make the analytical process transparent:
